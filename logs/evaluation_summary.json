@@ -1,0 +1,232 @@
+{
+  "DecisionTree": {
+    "model_name": "DecisionTree",
+    "accuracy": 0.53,
+    "precision_weighted": 0.5393400895667059,
+    "recall_weighted": 0.53,
+    "f1_weighted": 0.530133396851076,
+    "roc_auc_weighted": 0.7896372089951605,
+    "confusion_matrix": [
+      [
+        35,
+        25,
+        3,
+        0,
+        0
+      ],
+      [
+        78,
+        158,
+        118,
+        7,
+        0
+      ],
+      [
+        20,
+        123,
+        363,
+        162,
+        13
+      ],
+      [
+        0,
+        8,
+        150,
+        298,
+        155
+      ],
+      [
+        0,
+        0,
+        4,
+        74,
+        206
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        Poor       0.26      0.56      0.36        63\n        Fair       0.50      0.44      0.47       361\n     Average       0.57      0.53      0.55       681\n        Good       0.55      0.49      0.52       611\n   Excellent       0.55      0.73      0.63       284\n\n    accuracy                           0.53      2000\n   macro avg       0.49      0.55      0.50      2000\nweighted avg       0.54      0.53      0.53      2000\n"
+  },
+  "NaiveBayes": {
+    "model_name": "NaiveBayes",
+    "accuracy": 0.595,
+    "precision_weighted": 0.6002355282760046,
+    "recall_weighted": 0.595,
+    "f1_weighted": 0.5960079799795625,
+    "roc_auc_weighted": 0.8486140814289246,
+    "confusion_matrix": [
+      [
+        29,
+        31,
+        3,
+        0,
+        0
+      ],
+      [
+        63,
+        194,
+        99,
+        5,
+        0
+      ],
+      [
+        3,
+        134,
+        397,
+        141,
+        6
+      ],
+      [
+        0,
+        6,
+        129,
+        359,
+        117
+      ],
+      [
+        0,
+        0,
+        2,
+        71,
+        211
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        Poor       0.31      0.46      0.37        63\n        Fair       0.53      0.54      0.53       361\n     Average       0.63      0.58      0.61       681\n        Good       0.62      0.59      0.60       611\n   Excellent       0.63      0.74      0.68       284\n\n    accuracy                           0.59      2000\n   macro avg       0.54      0.58      0.56      2000\nweighted avg       0.60      0.59      0.60      2000\n"
+  },
+  "RandomForest": {
+    "model_name": "RandomForest",
+    "accuracy": 0.628,
+    "precision_weighted": 0.6264296897025635,
+    "recall_weighted": 0.628,
+    "f1_weighted": 0.6261935332465407,
+    "roc_auc_weighted": 0.8655733447954186,
+    "confusion_matrix": [
+      [
+        17,
+        46,
+        0,
+        0,
+        0
+      ],
+      [
+        19,
+        228,
+        111,
+        3,
+        0
+      ],
+      [
+        0,
+        106,
+        438,
+        132,
+        5
+      ],
+      [
+        0,
+        2,
+        148,
+        380,
+        81
+      ],
+      [
+        0,
+        0,
+        4,
+        87,
+        193
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        Poor       0.47      0.27      0.34        63\n        Fair       0.60      0.63      0.61       361\n     Average       0.62      0.64      0.63       681\n        Good       0.63      0.62      0.63       611\n   Excellent       0.69      0.68      0.69       284\n\n    accuracy                           0.63      2000\n   macro avg       0.60      0.57      0.58      2000\nweighted avg       0.63      0.63      0.63      2000\n"
+  },
+  "SVM": {
+    "model_name": "SVM",
+    "accuracy": 0.595,
+    "precision_weighted": 0.6075677520487488,
+    "recall_weighted": 0.595,
+    "f1_weighted": 0.5949165315603981,
+    "roc_auc_weighted": 0.860476156688656,
+    "confusion_matrix": [
+      [
+        45,
+        18,
+        0,
+        0,
+        0
+      ],
+      [
+        87,
+        186,
+        83,
+        5,
+        0
+      ],
+      [
+        11,
+        125,
+        390,
+        148,
+        7
+      ],
+      [
+        0,
+        5,
+        133,
+        333,
+        140
+      ],
+      [
+        0,
+        0,
+        1,
+        47,
+        236
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        Poor       0.31      0.71      0.44        63\n        Fair       0.56      0.52      0.54       361\n     Average       0.64      0.57      0.61       681\n        Good       0.62      0.55      0.58       611\n   Excellent       0.62      0.83      0.71       284\n\n    accuracy                           0.59      2000\n   macro avg       0.55      0.64      0.57      2000\nweighted avg       0.61      0.59      0.59      2000\n"
+  },
+  "LogisticRegression": {
+    "model_name": "LogisticRegression",
+    "accuracy": 0.5755,
+    "precision_weighted": 0.5896135385360655,
+    "recall_weighted": 0.5755,
+    "f1_weighted": 0.5760006260167861,
+    "roc_auc_weighted": 0.8533093132226576,
+    "confusion_matrix": [
+      [
+        43,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        91,
+        184,
+        81,
+        5,
+        0
+      ],
+      [
+        11,
+        145,
+        373,
+        144,
+        8
+      ],
+      [
+        0,
+        5,
+        138,
+        322,
+        146
+      ],
+      [
+        0,
+        0,
+        1,
+        54,
+        229
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        Poor       0.30      0.68      0.41        63\n        Fair       0.52      0.51      0.51       361\n     Average       0.63      0.55      0.59       681\n        Good       0.61      0.53      0.57       611\n   Excellent       0.60      0.81      0.69       284\n\n    accuracy                           0.58      2000\n   macro avg       0.53      0.61      0.55      2000\nweighted avg       0.59      0.58      0.58      2000\n"
+  }
+}

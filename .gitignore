@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+data/
+logs/
+models/
+*.joblib
+.ipynb_checkpoints/
+/.vscode/
+*.sqlite3
+*.db
