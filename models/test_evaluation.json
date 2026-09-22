@@ -1,0 +1,46 @@
+{
+  "model_name": "RandomForest",
+  "accuracy": 0.628,
+  "precision_weighted": 0.6264296897025635,
+  "recall_weighted": 0.628,
+  "f1_weighted": 0.6261935332465407,
+  "roc_auc_weighted": 0.8655733447954186,
+  "confusion_matrix": [
+    [
+      17,
+      46,
+      0,
+      0,
+      0
+    ],
+    [
+      19,
+      228,
+      111,
+      3,
+      0
+    ],
+    [
+      0,
+      106,
+      438,
+      132,
+      5
+    ],
+    [
+      0,
+      2,
+      148,
+      380,
+      81
+    ],
+    [
+      0,
+      0,
+      4,
+      87,
+      193
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n        Poor       0.47      0.27      0.34        63\n        Fair       0.60      0.63      0.61       361\n     Average       0.62      0.64      0.63       681\n        Good       0.63      0.62      0.63       611\n   Excellent       0.69      0.68      0.69       284\n\n    accuracy                           0.63      2000\n   macro avg       0.60      0.57      0.58      2000\nweighted avg       0.63      0.63      0.63      2000\n"
+}

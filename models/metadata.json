@@ -1,0 +1,85 @@
+{
+  "best_model_name": "RandomForest",
+  "feature_columns": [
+    "GPA",
+    "Course_Scores",
+    "Aptitude_Score",
+    "Attendance",
+    "Supervisor_Evaluation",
+    "Report_Quality",
+    "Activity_Log_Frequency",
+    "Completion_Time",
+    "Feedback_Rating"
+  ],
+  "class_order": [
+    "Poor",
+    "Fair",
+    "Average",
+    "Good",
+    "Excellent"
+  ],
+  "idx_to_class": {
+    "0": "Poor",
+    "1": "Fair",
+    "2": "Average",
+    "3": "Good",
+    "4": "Excellent"
+  },
+  "uses_scaled_data": false,
+  "results_summary": {
+    "RandomForest": {
+      "best_params": {
+        "n_estimators": 300,
+        "min_samples_split": 5,
+        "min_samples_leaf": 2,
+        "max_features": "sqrt",
+        "max_depth": 16
+      },
+      "cv_f1_weighted": 0.6239312980086552,
+      "test_f1_weighted": 0.6261935332465407,
+      "uses_scaled_data": false,
+      "train_time_sec": 103.79793572425842
+    },
+    "DecisionTree": {
+      "best_params": {
+        "criterion": "gini",
+        "max_depth": 8,
+        "min_samples_split": 2
+      },
+      "cv_f1_weighted": 0.5342773006235536,
+      "test_f1_weighted": 0.530133396851076,
+      "uses_scaled_data": false,
+      "train_time_sec": 3.430607795715332
+    },
+    "LogisticRegression": {
+      "best_params": {
+        "C": 1,
+        "solver": "lbfgs"
+      },
+      "cv_f1_weighted": 0.5839957513831383,
+      "test_f1_weighted": 0.5760006260167861,
+      "uses_scaled_data": true,
+      "train_time_sec": 0.5545718669891357
+    },
+    "SVM": {
+      "best_params": {
+        "C": 0.1,
+        "gamma": "auto",
+        "kernel": "rbf"
+      },
+      "cv_f1_weighted": 0.5953854081944824,
+      "test_f1_weighted": 0.5949165315603981,
+      "uses_scaled_data": true,
+      "train_time_sec": 75.9941873550415
+    },
+    "NaiveBayes": {
+      "best_params": {
+        "var_smoothing": 1e-09
+      },
+      "cv_f1_weighted": 0.5946872780394818,
+      "test_f1_weighted": 0.5960079799795625,
+      "uses_scaled_data": true,
+      "train_time_sec": 0.07064938545227051
+    }
+  }
+}
