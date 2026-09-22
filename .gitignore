@@ -11,3 +11,4 @@ models/
 /.vscode/
 *.sqlite3
 *.db
+.kilo
